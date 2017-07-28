@@ -265,3 +265,18 @@ __pycache__/
 *.sln
 *.vcxproj
 *.vcxproj.filters
+
+include
+
+# CMake
+
+cmake-build-debug
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+*.cbp
+Makefile
+
+# IDEs
+
+.vscode

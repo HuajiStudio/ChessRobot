@@ -1,4 +1,4 @@
-// ChessRobot.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌÐòµÄÈë¿Úµã¡£
+// ChessRobot.cpp : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¨Ó¦ï¿½Ã³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµã¡£
 //
 
 #include <boost/asio.hpp>
@@ -43,5 +43,5 @@ void read_handler(const boost::system::error_code & error, size_t bytes_transfer
 		fprintf(stderr, "Error when connecting to server: %s", error.message().c_str());
 		return;
 	}
-	// Do something with buffer
+	// TODO: Do something with buffer
 }
